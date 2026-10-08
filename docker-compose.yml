@@ -13,9 +13,6 @@ services:
 
   application:
     image: 'bitnamilegacy/laravel:latest'
-    dns:
-      - 8.8.8.8
-      - 8.8.4.4
     environment:
       - LARAVEL_DATABASE_TYPE=mysql
       - LARAVEL_DATABASE_HOST=mariadb
